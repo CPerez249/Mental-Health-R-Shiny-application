@@ -380,7 +380,7 @@ tables7 <- fluidRow(
   )
 )
 
-# USER INTERFACE #####################################################
+#################################### USER INTERFACE #####################################################
 header <- dashboardHeader(title = "Mental Health in CEU San Pablo University", titleWidth = 450)
 sidebar <- dashboardSidebar(
   sidebarMenu(
@@ -419,7 +419,7 @@ body <- dashboardBody(tabItems(tabItem(tabName = "Home",
 
 ui <- dashboardPage(title = 'Mental Health in University CEU San Pablo ',header, sidebar, body, skin='green')
 
-# SERVER ##########################################################
+################################################### SERVER ##########################################################
 
 server <- function(input, output) {
   
