@@ -600,5 +600,5 @@ server <- function(input, output) {
 }
 
 
-# Ejecutar la aplicación
+
 shinyApp(ui, server)
